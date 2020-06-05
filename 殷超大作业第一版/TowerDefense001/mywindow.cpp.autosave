@@ -1,0 +1,7 @@
+#include "mywindow.h"
+
+MyWindow::MyWindow(QWidget *parent) : QMainWindow(parent)
+{
+  setFixedSize(1200,600);
+  
+}
